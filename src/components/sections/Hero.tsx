@@ -67,7 +67,7 @@ export function Hero() {
                         {profile?.titles?.map((title, i) => (
                             <motion.span
                                 key={i}
-                                className="text-lg md:text-xl text-muted-foreground font-medium"
+                                className="text-lg md:text-xl font-medium text-[#030303] dark:text-[#3b82f6]"
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
                                 transition={{ delay: 0.4 + i * 0.1 }}
@@ -81,11 +81,11 @@ export function Hero() {
                     </div>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <Button size="lg" className="group rounded-full px-8 py-6 text-lg h-auto shadow-xl shadow-primary/20 transition-all hover:scale-105 active:scale-95">
+                        <Button size="lg" className="group rounded-full px-8 py-6 text-lg h-auto shadow-xl shadow-primary/20 transition-all hover:scale-105 active:scale-95 hover-glow">
                             Explore Experience
                             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                         </Button>
-                        <Button variant="outline" size="lg" className="rounded-full px-8 py-6 text-lg h-auto bg-background/50 backdrop-blur-sm shadow-xl transition-all hover:scale-105 active:scale-95">
+                        <Button variant="outline" size="lg" className="rounded-full px-8 py-6 text-lg h-auto bg-background/50 backdrop-blur-sm shadow-xl transition-all hover:scale-105 active:scale-95 hover-glow">
                             Contact Me
                         </Button>
                     </div>

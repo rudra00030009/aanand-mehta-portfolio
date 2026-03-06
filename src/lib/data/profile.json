@@ -15,7 +15,8 @@
             "period": "Aug 2011 - May 2013",
             "highlights": [
                 "Provided technical expertise as a Subject Matter Expert for large-scale enterprise systems"
-            ]
+            ],
+            "logo": "/IBM-logo.png"
         },
         {
             "company": "Polaris Consulting & Services",
@@ -24,7 +25,8 @@
             "highlights": [
                 "Established and managed the Middleware COE",
                 "Optimized enterprise integration patterns and shared services"
-            ]
+            ],
+            "logo": "/polaris.jpg"
         },
         {
             "company": "DXC Technology",
@@ -33,7 +35,8 @@
             "highlights": [
                 "Designed and implemented complex cloud architectures for enterprise clients",
                 "Spearheaded technical vision for digital transformation initiatives"
-            ]
+            ],
+            "logo": "/dxc_tech.png"
         },
         {
             "company": "Capgemini",
@@ -43,7 +46,8 @@
                 "FinOps Cost Analyst: monitored cloud costs, established governance",
                 "AWS-MongoDB Assessment SME: conducted assessments, identified optimization opportunities",
                 "Led cross-functional teams for large-scale cloud migrations and transformations"
-            ]
+            ],
+            "logo": "/capgemini.png"
         },
         {
             "company": "Nasdaq",
@@ -53,7 +57,8 @@
                 "Driving FinOps strategy at a global financial exchange",
                 "Bridging cloud financial management with business outcomes",
                 "Pioneering AI-driven cost optimization and analytical frameworks"
-            ]
+            ],
+            "logo": "/nasdaq--600.png"
         }
     ],
     "certifications": [
@@ -116,5 +121,18 @@
         "Enabled Executive Decision-Making through advanced analytics",
         "Fostered Industry Collaboration through community engagement",
         "Prepared Organizations for the AI-driven future of technology spend management"
-    ]
+    ],
+    "strategicPositioning": "2025 contributions have positioned me as a Strategic FinOps Leader ready to drive the next phase of cloud financial management evolution — where AI, multi-cloud governance, and executive accountability converge.",
+    "passion": "Driving change and making a positive impact",
+    "specializations": [
+        "Developing and implementing frameworks that align technology with business strategy including FinOps",
+        "Optimizing portfolios to balance legacy and emerging technology spend to drive profitability",
+        "Embedding transformation through innovative change approaches"
+    ],
+    "photo": "/aanand mehta sir.jpg",
+    "stats": {
+        "yearsExperience": 14,
+        "certifications": 9,
+        "enterprises": 5
+    }
 }

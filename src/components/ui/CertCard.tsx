@@ -34,8 +34,8 @@ export function CertCard({ certification, index }: CertCardProps) {
                 className="h-full"
             >
                 <div className={cn(
-                    "group relative h-full p-6 rounded-2xl transition-all duration-500",
-                    "bg-white/5 backdrop-blur-md border border-white/10 shadow-2xl hover:border-primary/50",
+                    "group relative h-full p-6 rounded-2xl transition-all duration-300",
+                    "glass-morphism hover-glow shadow-2xl hover:border-primary/50",
                     "flex flex-col justify-between overflow-hidden"
                 )}>
                     {/* Background glow effect on hover */}

@@ -30,7 +30,7 @@ export function ParticleField({ count = 50 }: { count?: number }) {
                         "absolute rounded-full blur-[1px]",
                         resolvedTheme === "dark"
                             ? "bg-blue-400/30 shadow-[0_0_8px_rgba(96,165,250,0.3)]"
-                            : "bg-blue-600/20 shadow-[0_0_8px_rgba(37,99,235,0.2)]"
+                            : "bg-blue-600/50 shadow-[0_0_10px_rgba(37,99,235,0.4)]"
                     )}
                     style={{
                         left: `${particle.x}%`,

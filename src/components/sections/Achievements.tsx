@@ -42,8 +42,8 @@ export function Achievements() {
                             viewport={{ once: true }}
                             transition={{ delay: i * 0.1 }}
                             className={cn(
-                                "group relative p-8 rounded-3xl bg-background border border-border/50",
-                                "shadow-xl hover:shadow-primary/20 hover:border-primary/50 transition-all duration-500",
+                                "group relative p-8 rounded-3xl glass-morphism hover-glow border border-border/50",
+                                "shadow-xl hover:shadow-primary/20 hover:border-primary/50 transition-all duration-300",
                                 "flex flex-col gap-4 overflow-hidden"
                             )}
                         >

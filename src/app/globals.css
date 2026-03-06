@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
-  --primary: #2563eb;
-  --primary-foreground: #ffffff;
-  --secondary: #e2e8f0;
-  --secondary-foreground: #1e293b;
-  --muted: #f1f5f9;
-  --muted-foreground: #64748b;
-  --accent: #f1f5f9;
-  --accent-foreground: #0f172a;
-  --border: #e2e8f0;
-  --input: #e2e8f0;
-  --ring: #3b82f6;
+  --background: #F1EFEC;
+  --foreground: #030303;
+  --primary: #123458;
+  --primary-foreground: #F1EFEC;
+  --secondary: #D4C9BE;
+  --secondary-foreground: #030303;
+  --muted: #D4C9BE;
+  --muted-foreground: #123458;
+  --accent: #D4C9BE;
+  --accent-foreground: #123458;
+  --border: #D4C9BE;
+  --input: #D4C9BE;
+  --ring: #123458;
   --radius: 0.75rem;
 }
 
@@ -52,9 +52,24 @@
 }
 
 .glass-morphism {
-  @apply backdrop-blur-md bg-white/10 border border-white/20 shadow-xl;
+  @apply backdrop-blur-xl border shadow-xl transition-all duration-300;
+  background: rgba(241, 239, 236, 0.60);
+  border-color: rgba(212, 201, 190, 0.70);
 }
 
 .dark .glass-morphism {
-  @apply bg-black/20 border-white/10;
+  @apply bg-black/30 border-white/10;
+}
+
+.hover-glow {
+  @apply transition-all duration-300;
+}
+
+.hover-glow:hover {
+  @apply scale-[1.02];
+  box-shadow: 0 0 20px rgba(18, 52, 88, 0.25);
+}
+
+.dark .hover-glow:hover {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
 }

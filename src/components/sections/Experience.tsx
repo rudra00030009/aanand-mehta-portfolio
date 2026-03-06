@@ -2,10 +2,11 @@
 
 import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Image from "next/image";
 import { getProfileData } from "@/lib/data/getProfileData";
 import { Job } from "@/types";
 import { cn } from "@/lib/utils";
-import { Briefcase, MapPin, Calendar } from "lucide-react";
+import { Briefcase } from "lucide-react";
 
 interface ExperienceCardProps {
     job: Job;
@@ -30,17 +31,30 @@ function ExperienceCard({ job, index }: ExperienceCardProps) {
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 className={cn(
-                    "w-[45%] p-8 rounded-3xl glass-morphism relative group",
+                    "w-[45%] p-8 rounded-3xl glass-morphism relative group hover-glow",
                     "hover:scale-[1.02] transition-transform duration-500"
                 )}
             >
                 <div className="absolute top-0 left-0 w-full h-full bg-primary/5 rounded-3xl -z-10 group-hover:bg-primary/10 transition-colors" />
 
-                <div className="flex items-center gap-3 mb-4">
-                    <div className="p-2 rounded-lg bg-primary/10 text-primary">
-                        <Briefcase className="w-5 h-5" />
+                <div className="flex items-start justify-between mb-4">
+                    <div className="flex items-center gap-3">
+                        <div className="p-2 rounded-lg bg-primary/10 text-primary">
+                            <Briefcase className="w-5 h-5" />
+                        </div>
+                        <span className="text-sm font-bold text-primary tracking-widest uppercase">{job.period}</span>
                     </div>
-                    <span className="text-sm font-bold text-primary tracking-widest uppercase">{job.period}</span>
+
+                    {job.logo && (
+                        <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-primary/20 bg-white p-1 shrink-0 shadow-sm">
+                            <Image
+                                src={job.logo}
+                                alt={job.company}
+                                fill
+                                className="object-contain"
+                            />
+                        </div>
+                    )}
                 </div>
 
                 <h3 className="text-2xl font-black mb-1 group-hover:text-primary transition-colors">{job.role}</h3>

@@ -53,12 +53,12 @@ export function Skills() {
                                         delay: i * 0.1
                                     }}
                                     className={cn(
-                                        "px-8 py-4 rounded-full glass-morphism cursor-default border border-primary/20",
+                                        "px-8 py-4 rounded-full glass-morphism cursor-default border border-primary/20 hover-glow",
                                         "shadow-lg hover:shadow-primary/30 transition-shadow duration-500",
-                                        "flex flex-col items-center justify-center text-center"
+                                        "flex flex-col items-center justify-center text-center font-bold"
                                     )}
                                     style={{
-                                        backgroundColor: `rgba(59, 130, 246, ${0.05 + (level / 10)})`,
+                                        backgroundColor: `rgba(79, 70, 229, ${0.05 + (level / 10)})`,
                                     }}
                                 >
                                     <span className="text-xl font-bold tracking-tight">{skill}</span>

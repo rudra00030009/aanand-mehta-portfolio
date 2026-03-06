@@ -3,6 +3,7 @@ export interface Job {
     role: string;
     period: string;
     highlights: string[];
+    logo?: string;
 }
 
 export interface Certification {
@@ -20,4 +21,13 @@ export interface Profile {
     certifications: Certification[];
     skills: Record<string, number>;
     achievements2025: string[];
+    strategicPositioning?: string;
+    passion?: string;
+    specializations?: string[];
+    photo?: string;
+    stats?: {
+        yearsExperience: number;
+        certifications: number;
+        enterprises: number;
+    };
 }
