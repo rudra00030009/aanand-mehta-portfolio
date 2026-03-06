@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --background: #fdfdfd;
-  --foreground: #0a0a0b;
+  --background: #f8fafc;
+  --foreground: #0f172a;
   --primary: #2563eb;
   --primary-foreground: #ffffff;
-  --secondary: #f1f5f9;
+  --secondary: #e2e8f0;
   --secondary-foreground: #1e293b;
   --muted: #f1f5f9;
   --muted-foreground: #64748b;
@@ -40,6 +40,7 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground transition-colors duration-500;
     font-feature-settings: "rlig" 1, "calt" 1;

@@ -10,13 +10,29 @@
     "summary": "2025 FinOps Leadership Summary: Strategic Impact & Key Achievements... As a Senior Specialist FinOps at Nasdaq and an AWS Community Builder, Aanand Mehta is at the forefront of cloud financial management and AI-driven optimization. With over 14 years of experience across global giants like IBM, Capgemini, and DXC, he specializes in bridging the gap between cloud engineering and business value. His 2025 focus includes pioneering AI-integrated FinOps frameworks, enabling data-driven executive decisions, and fostering a global community of cloud financial practitioners. He holds 9+ active certifications across AWS, GCP, and the FinOps Foundation, making him a versatile architect for the hybrid-cloud era.",
     "experience": [
         {
-            "company": "Nasdaq",
-            "role": "Senior Specialist FinOps | AWS Community Builder",
-            "period": "Nov 2024 - Present",
+            "company": "IBM India Private Limited",
+            "role": "SME",
+            "period": "Aug 2011 - May 2013",
             "highlights": [
-                "Driving FinOps strategy at a global financial exchange",
-                "Bridging cloud financial management with business outcomes",
-                "Pioneering AI-driven cost optimization and analytical frameworks"
+                "Provided technical expertise as a Subject Matter Expert for large-scale enterprise systems"
+            ]
+        },
+        {
+            "company": "Polaris Consulting & Services",
+            "role": "Middleware Centre of Excellence (COE) Head",
+            "period": "Oct 2013 - Jan 2016",
+            "highlights": [
+                "Established and managed the Middleware COE",
+                "Optimized enterprise integration patterns and shared services"
+            ]
+        },
+        {
+            "company": "DXC Technology",
+            "role": "Solution Architect",
+            "period": "Jan 2016 - Oct 2018",
+            "highlights": [
+                "Designed and implemented complex cloud architectures for enterprise clients",
+                "Spearheaded technical vision for digital transformation initiatives"
             ]
         },
         {
@@ -30,29 +46,13 @@
             ]
         },
         {
-            "company": "DXC Technology",
-            "role": "Solution Architect",
-            "period": "Jan 2016 - Oct 2018",
+            "company": "Nasdaq",
+            "role": "Senior Specialist FinOps | AWS Community Builder",
+            "period": "Nov 2024 - Present",
             "highlights": [
-                "Designed and implemented complex cloud architectures for enterprise clients",
-                "Spearheaded technical vision for digital transformation initiatives"
-            ]
-        },
-        {
-            "company": "Polaris Consulting & Services",
-            "role": "Middleware Centre of Excellence (COE) Head",
-            "period": "Oct 2013 - Jan 2016",
-            "highlights": [
-                "Established and managed the Middleware COE",
-                "Optimized enterprise integration patterns and shared services"
-            ]
-        },
-        {
-            "company": "IBM India Private Limited",
-            "role": "SME",
-            "period": "Aug 2011 - May 2013",
-            "highlights": [
-                "Provided technical expertise as a Subject Matter Expert for large-scale enterprise systems"
+                "Driving FinOps strategy at a global financial exchange",
+                "Bridging cloud financial management with business outcomes",
+                "Pioneering AI-driven cost optimization and analytical frameworks"
             ]
         }
     ],
