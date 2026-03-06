@@ -1,0 +1,120 @@
+{
+    "name": "Aanand Mehta",
+    "titles": [
+        "AWS Community Builder",
+        "Multi-Cloud Certified Hybrid Solution Enterprise Architect",
+        "Senior FinOps AI Specialist",
+        "Certified FinOps Practitioner cum FOCUS Analyst"
+    ],
+    "currentRole": "Senior Specialist FinOps at Nasdaq",
+    "summary": "2025 FinOps Leadership Summary: Strategic Impact & Key Achievements... As a Senior Specialist FinOps at Nasdaq and an AWS Community Builder, Aanand Mehta is at the forefront of cloud financial management and AI-driven optimization. With over 14 years of experience across global giants like IBM, Capgemini, and DXC, he specializes in bridging the gap between cloud engineering and business value. His 2025 focus includes pioneering AI-integrated FinOps frameworks, enabling data-driven executive decisions, and fostering a global community of cloud financial practitioners. He holds 9+ active certifications across AWS, GCP, and the FinOps Foundation, making him a versatile architect for the hybrid-cloud era.",
+    "experience": [
+        {
+            "company": "Nasdaq",
+            "role": "Senior Specialist FinOps | AWS Community Builder",
+            "period": "Nov 2024 - Present",
+            "highlights": [
+                "Driving FinOps strategy at a global financial exchange",
+                "Bridging cloud financial management with business outcomes",
+                "Pioneering AI-driven cost optimization and analytical frameworks"
+            ]
+        },
+        {
+            "company": "Capgemini",
+            "role": "Manager # Cloud SME",
+            "period": "Oct 2018 - Oct 2024",
+            "highlights": [
+                "FinOps Cost Analyst: monitored cloud costs, established governance",
+                "AWS-MongoDB Assessment SME: conducted assessments, identified optimization opportunities",
+                "Led cross-functional teams for large-scale cloud migrations and transformations"
+            ]
+        },
+        {
+            "company": "DXC Technology",
+            "role": "Solution Architect",
+            "period": "Jan 2016 - Oct 2018",
+            "highlights": [
+                "Designed and implemented complex cloud architectures for enterprise clients",
+                "Spearheaded technical vision for digital transformation initiatives"
+            ]
+        },
+        {
+            "company": "Polaris Consulting & Services",
+            "role": "Middleware Centre of Excellence (COE) Head",
+            "period": "Oct 2013 - Jan 2016",
+            "highlights": [
+                "Established and managed the Middleware COE",
+                "Optimized enterprise integration patterns and shared services"
+            ]
+        },
+        {
+            "company": "IBM India Private Limited",
+            "role": "SME",
+            "period": "Aug 2011 - May 2013",
+            "highlights": [
+                "Provided technical expertise as a Subject Matter Expert for large-scale enterprise systems"
+            ]
+        }
+    ],
+    "certifications": [
+        {
+            "name": "FinOps Certified FOCUS Analyst",
+            "issuer": "Linux Foundation",
+            "date": "Oct 2025"
+        },
+        {
+            "name": "FinOps Certified Practitioner",
+            "issuer": "FinOps Foundation",
+            "date": "2024"
+        },
+        {
+            "name": "AWS Certified AI Practitioner",
+            "issuer": "AWS",
+            "date": "2025"
+        },
+        {
+            "name": "AWS Certified Data Engineer – Associate",
+            "issuer": "AWS",
+            "date": "Jul 2025"
+        },
+        {
+            "name": "AWS Certified Solutions Architect Professional",
+            "issuer": "AWS",
+            "date": "2023"
+        },
+        {
+            "name": "AWS Certified DevOps Engineer Professional",
+            "issuer": "AWS",
+            "date": "2023"
+        },
+        {
+            "name": "AWS Certified Security - Specialty",
+            "issuer": "AWS",
+            "date": "2023"
+        },
+        {
+            "name": "AWS Certified Cloud Practitioner",
+            "issuer": "AWS",
+            "date": "2022"
+        },
+        {
+            "name": "Google Cloud Platform Data Engineer",
+            "issuer": "Google",
+            "date": "2023"
+        }
+    ],
+    "skills": {
+        "Cloud Finops Architect": 5,
+        "Cloud Migration": 5,
+        "Cloud Solution Architect": 5,
+        "Application Modernization": 4,
+        "Cloud Transformation": 3
+    },
+    "achievements2025": [
+        "Established Thought Leadership in AI-driven FinOps",
+        "Built Scalable Frameworks for enterprise cost management",
+        "Enabled Executive Decision-Making through advanced analytics",
+        "Fostered Industry Collaboration through community engagement",
+        "Prepared Organizations for the AI-driven future of technology spend management"
+    ]
+}
