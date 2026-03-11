@@ -18,11 +18,12 @@ function ExperienceCard({ job, index }: ExperienceCardProps) {
 
     return (
         <div className={cn(
-            "relative flex items-center justify-between mb-24 w-full",
-            isEven ? "flex-row-reverse" : "flex-row"
+            "relative flex items-start md:items-center justify-between mb-16 md:mb-24 w-full",
+            "flex-col md:flex-row gap-8 md:gap-0",
+            isEven ? "md:flex-row-reverse" : "md:flex-row"
         )}>
             {/* Timeline Dot */}
-            <div className="absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-primary rounded-full shadow-[0_0_15px_rgba(59,130,246,0.8)] z-20" />
+            <div className="absolute left-6 md:left-1/2 top-8 md:top-auto -translate-x-1/2 w-4 h-4 bg-primary rounded-full shadow-[0_0_15px_rgba(59,130,246,0.8)] z-20" />
 
             {/* Content Card */}
             <motion.div
@@ -31,13 +32,13 @@ function ExperienceCard({ job, index }: ExperienceCardProps) {
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 className={cn(
-                    "w-[45%] p-8 rounded-3xl glass-morphism relative group hover-glow",
+                    "w-[calc(100%-4rem)] ml-auto md:ml-0 md:w-[45%] p-6 md:p-8 rounded-3xl glass-morphism relative group hover-glow",
                     "hover:scale-[1.02] transition-transform duration-500"
                 )}
             >
                 <div className="absolute top-0 left-0 w-full h-full bg-primary/5 rounded-3xl -z-10 group-hover:bg-primary/10 transition-colors" />
 
-                <div className="flex items-start justify-between mb-4">
+                <div className="flex flex-col-reverse sm:flex-row items-start sm:items-center justify-between mb-4 gap-4 sm:gap-0">
                     <div className="flex items-center gap-3">
                         <div className="p-2 rounded-lg bg-primary/10 text-primary">
                             <Briefcase className="w-5 h-5" />
@@ -69,12 +70,11 @@ function ExperienceCard({ job, index }: ExperienceCardProps) {
                     ))}
                 </ul>
 
-                {/* Floating background shape */}
                 <div className="absolute -top-4 -right-4 w-20 h-20 bg-primary/10 blur-2xl rounded-full -z-20 group-hover:bg-primary/20 transition-all duration-700" />
             </motion.div>
 
-            {/* Empty space for the other side */}
-            <div className="w-[45%]" />
+            {/* Empty space for the other side on desktop */}
+            <div className="hidden md:block w-[45%]" />
         </div>
     );
 }
@@ -105,7 +105,7 @@ export function Experience() {
                     {/* Vertical Line */}
                     <motion.div
                         style={{ scaleY, originY: 0 }}
-                        className="absolute left-1/2 -translate-x-1/2 top-0 w-0.5 h-full bg-gradient-to-b from-primary via-primary-foreground to-primary opacity-30 z-10"
+                        className="absolute left-6 md:left-1/2 -translate-x-1/2 top-0 w-0.5 h-full bg-gradient-to-b from-primary via-primary-foreground to-primary opacity-30 z-10"
                     />
 
                     <div className="flex flex-col">
